@@ -1,0 +1,9 @@
+{% if machines %}
+    <ul>
+    {% for machine in machines %}
+        <li><a href="/kgnWebApp/{{machine.id}}/">{{ machine.machine_Name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>nothing here.</p>
+{% endif %}

@@ -1,0 +1,52 @@
+,0,1,2
+0,name,unit,values
+1,TimeOut_RollUp_Op,(s),60.0
+2,TimeOut_RollUp_Cl,(s),50.0
+3,TimeOut_Rot_Fw,(s),60.0
+4,TimeOut_Rot_Bw,(s),60.0
+5,TimeOut_Press_Fw,(s),60.0
+6,TimeOut_Press_Bw,(s),60.0
+7,TimeOutEndLoad,(ms),60.0
+8,Min_Weight,(hg),0.0
+9,Max_Weight,(hg),1000.0
+10,Max_Weight_Standard_Deviation,(hg),100.0
+11,TImeCleaner,(msec),0.0
+12,Pulse_Cleaner,(n),0.0
+13,Time_Winter_Cycle,(min),0.0
+14,Full_80_Type_1,(bar),120.0
+15,Full_100_Type_1,(bar),150.0
+16,TimeFull,(msec),0.0
+17,TimeSlowPress,(ms),0.0
+18,TimeBuzzerLoad_1,(s),0.0
+19,TimeBuzzerLoad_2,(s),120.0
+20,TImeRotBw_AfterF_PressFW,(s),150.0
+21,Set_Couter_Rotation,(n),0.0
+22,TimeOut_Communication,(s),2500.0
+23,Time_Manut_Prev_ RollUp,(s),3.0
+24,Time_Manut_Prev_Crate,(s),0.0
+25,Time_Manut_Prev_ Pmp_Igien,(s),0.0
+26,Time_Manut_Prev_ Hydr,(s),4.0
+27,Time_Manut_Prev_ ValveFwBw,(s),0.0
+28,Time_Manut_Prev_ValveSlow,(s),0.0
+29,TimeSwitchOff,(s),60.0
+30,TimeSwitchOff_PC,(s),30.0
+31,NumeroPressate,(n),0.0
+32,TypeWaste,(n),2.0
+33,FunzioneTurista,(1/0),0.0
+34,CicloClean,(1/0),0.0
+35,PressatePesoMinoreSoglia,(n),3.0
+36,WhiteListOpen,(1/0),0.0
+37,Try,(n),5.0
+38,CamEnabled,(1/0),1.0
+39,TempoConteggioEncoder,(ms),900.0
+40,TempoFiltroZeroEncoder,(ms),0.0
+41,Full_80_Type_2,(bar),120.0
+42,Full_100_Type_2,(bar),150.0
+43,Full_80_Type_3,(bar),120.0
+44,Full_100_Type_3,(bar),150.0
+45,Buzzer_OFF,(1/0),0.0
+46,Ripristino,(1/0),0.0
+47,Full_80_Type_4,(bar),120.0
+48,Full_100_Type_4,(bar),150.0
+49,Full_80_Type_5,(bar),120.0
+50,Full_100_Type_5,(bar),150.0

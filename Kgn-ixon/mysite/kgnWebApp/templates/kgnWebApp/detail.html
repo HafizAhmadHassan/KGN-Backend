@@ -1,0 +1,47 @@
+<!-- 
+    Avoid using for 
+    like index.html
+    loop because 
+    object has
+    length one 
+-->
+
+
+{% if machine_orders %}
+<p> Here We Have Machine Orders Details</p>
+    <ul>
+        {% for machine_order in machine_orders %}
+        
+        <p>Machine Order ID   : {{machine_order.id}}</p>
+            <li><a href="/kgnWebApp/{{machine_order.Pieces}}/">Pieces : {{ machine_order.Pieces }}</a></li>
+            <li><a href="/kgnWebApp/{{machine_order.Cutomer_Name}}/">Customer_Name : {{ machine_order.Customer_Name }}</a></li>
+            <li><a href="/kgnWebApp/{{machine_order.Order_Date}}/">Order_Date : {{ machine_order.Order_Date }}</a></li>
+
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There is no order details</p>
+{% endif %}
+
+
+
+
+
+
+<!-- 
+    Avoid using For loop because object has 
+    length one
+
+    <p> Here are alarms </p>
+{% if alarm %}
+    <ul>
+  
+        <li><a href="/kgnWebApp/{{alarm.id}}/">{{ alarm.Name }}  </a></li>
+
+    </ul>
+  
+{% else %}
+    <p>nothing here.</p>
+{% endif %}
+
+-->
